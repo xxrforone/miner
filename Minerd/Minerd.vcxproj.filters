@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="code">
+      <UniqueIdentifier>{77a4e96a-711a-4eb0-8b9a-4f4ee22cab8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compat">
+      <UniqueIdentifier>{45cf961b-b063-47c1-a98a-d29b07a0194f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compat\jansson">
+      <UniqueIdentifier>{d01dee75-ff59-44d2-ad6e-4b45d4b9201c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compat\libcurl">
+      <UniqueIdentifier>{d6aace8e-65c3-438c-b7b8-a349e9c54c85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compat\pthreads">
+      <UniqueIdentifier>{0b53e4a1-b1b7-4d99-ac77-0e405ecfb225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compat\port">
+      <UniqueIdentifier>{05914ff9-3ac8-4be1-a05b-71190e6fec48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\scrypt-jane-chacha.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\scrypt-jane-hash.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\scrypt-jane-hash_keccak.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\scrypt-jane-hash_sha256.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\scrypt-jane-mix_chacha.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\scrypt-jane-mix_chacha-avx.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\scrypt-jane-mix_chacha-sse2.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\scrypt-jane-mix_chacha-ssse3.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\scrypt-jane-mix_salsa.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\scrypt-jane-mix_salsa-avx.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\scrypt-jane-mix_salsa-sse2.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\scrypt-jane-pbkdf2.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\scrypt-jane-portable.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\scrypt-jane-portable-x86.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\scrypt-jane-romix.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\scrypt-jane-romix-basic.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\scrypt-jane-romix-template.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\scrypt-jane-salsa.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\scrypt-jane-test-vectors.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="compat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="elist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="miner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scrypt-jane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpuminer-config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compat\jansson\jansson.h">
+      <Filter>compat\jansson</Filter>
+    </ClInclude>
+    <ClInclude Include="compat\jansson\jansson_config.h">
+      <Filter>compat\jansson</Filter>
+    </ClInclude>
+    <ClInclude Include="compat\libcurl\curl.h">
+      <Filter>compat\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="compat\libcurl\curlbuild.h">
+      <Filter>compat\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="compat\libcurl\curlrules.h">
+      <Filter>compat\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="compat\libcurl\curlver.h">
+      <Filter>compat\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="compat\libcurl\easy.h">
+      <Filter>compat\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="compat\libcurl\mprintf.h">
+      <Filter>compat\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="compat\libcurl\multi.h">
+      <Filter>compat\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="compat\libcurl\stdcheaders.h">
+      <Filter>compat\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="compat\libcurl\typecheck-gcc.h">
+      <Filter>compat\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="compat\pthreads\pthread.h">
+      <Filter>compat\pthreads</Filter>
+    </ClInclude>
+    <ClInclude Include="compat\pthreads\sched.h">
+      <Filter>compat\pthreads</Filter>
+    </ClInclude>
+    <ClInclude Include="compat\pthreads\semaphore.h">
+      <Filter>compat\pthreads</Filter>
+    </ClInclude>
+    <ClInclude Include="compat\port\gettimeofday.h">
+      <Filter>compat\port</Filter>
+    </ClInclude>
+    <ClInclude Include="compat\port\stdbool.h">
+      <Filter>compat\port</Filter>
+    </ClInclude>
+    <ClInclude Include="compat\port\getopt.h">
+      <Filter>compat\port</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cpu-miner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scrypt-jane.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sha2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="compat\port\gettimeofday.c">
+      <Filter>compat\port</Filter>
+    </ClCompile>
+    <ClCompile Include="compat\port\getopt.c">
+      <Filter>compat\port</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="scrypt-arm.S" />
+    <None Include="scrypt-x64.S" />
+    <None Include="scrypt-x86.S" />
+    <None Include="sha2-arm.S" />
+    <None Include="sha2-x64.S" />
+    <None Include="sha2-x86.S" />
+  </ItemGroup>
+</Project>
